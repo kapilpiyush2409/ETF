@@ -7,7 +7,7 @@ function f1() {
     var dateA = document.getElementById("dateA").value;
     var dateB = document.getElementById("dateB").value;
     var cas = document.getElementById("cas");
-    var acas = document.getElementById("cas");
+    var acas = document.getElementById("acas");
     var dcas = document.getElementById("dcas");
     console.log(dateA);
     if (name == '' || dateA == '' || dateB == '')
