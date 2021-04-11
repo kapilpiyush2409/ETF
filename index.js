@@ -1,6 +1,7 @@
-/*function color() {
+function color() {
     document.getElementById("cnty").style.backgroundColor = "white";
-}*/
+}
+
 function f1() {
     event.preventDefault();
     var name = document.getElementById("cnty").value;

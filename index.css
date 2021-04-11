@@ -23,8 +23,12 @@ body {
 
 #result {
     background-color: blue;
-    display: none;
     width: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+    height: 150px;
+    width: 50%;
     margin: auto;
 }
 

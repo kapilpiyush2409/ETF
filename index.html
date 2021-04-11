@@ -17,16 +17,16 @@
     <form>
         <div id="form" class="row">
 
-            <div class="col"><input type="text" id="cnty" placeholder="country" required></div>
+            <div class="col"><input type="text" id="cnty" placeholder="country" onclick="color()" required></div>
             <div class="col"> <input type="date" id="dateA" required></div>
             <div class="col"> <input type="date" id="dateB" required></div>
             <div class="col"> <button type="button" class="btn btn-primary" onClick="f1()">submit</button></div>
 
         </div>
         <div id="result">
-            <h4>Confirmed Cases:<span id="cas"></span> </h4>
-            <h4>Active Cases: <span id="acas"></span></h4>
-            <h4>Death Cases: <span id="dcas"></span> </h4>
+            <h2>Confirmed Cases:<span id="cas"></span> </h2>
+            <h2>Active Cases: <span id="acas"></span></h2>
+            <h2>Death Cases: <span id="dcas"></span> </h2>
         </div>
     </form>
 </body>
