@@ -1,0 +1,29 @@
+body {
+    background-image: url("1.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#form {
+    text-align: center;
+}
+
+#btn {
+    color: #000;
+    background-color: blue;
+    border: solid black;
+}
+
+#cnty {
+    background-color: #B2DEEC;
+}
+
+#btn,
+#cnty,
+#date {
+    margin: 100px 20px 100px 20px;
+}
