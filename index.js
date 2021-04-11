@@ -2,6 +2,7 @@
     document.getElementById("cnty").style.backgroundColor = "white";
 }*/
 function f1() {
+    event.preventDefault();
     var name = document.getElementById("cnty").value;
     var dateA = document.getElementById("dateA").value;
     var dateB = document.getElementById("dateB").value;
@@ -12,7 +13,7 @@ function f1() {
     if (name == '' || dateA == '' || dateB == '')
         alert("enter the value");
     else {
-        var api = "https://api.covid19api.com/country/" + country + "?from=" + sDate + "T00:00:00Z&to=" + eDate + "T00:00:00Z";
+        var api = "https://api.covid19api.com/country/" + name + "?from=" + dateA + "T00:00:00Z&to=" + dateB + "T00:00:00Z";
         fetch(api)
             .then((result) => result.json())
             .then((result) => {

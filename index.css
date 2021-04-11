@@ -22,7 +22,16 @@ body {
 }
 
 #result {
-    background-color: white;
+    background-color: blue;
     display: none;
     width: 100%;
+    margin: auto;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
 }
