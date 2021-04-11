@@ -13,16 +13,16 @@ body {
     margin: 50px 30px 20px 30px;
 }
 
-#btn {
-    color: #000;
-    background-color: blue;
-    border: solid black;
-}
-
 #cnty {
     background-color: #B2DEEC;
 }
 
 .col {
     margin: 0px 15px 10px 0px !important;
+}
+
+#result {
+    background-color: white;
+    display: none;
+    width: 100%;
 }

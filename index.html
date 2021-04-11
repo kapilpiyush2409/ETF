@@ -15,13 +15,18 @@
 
 <body>
     <form>
-        <div id="form" class="row">
+        <div id="form" class="row" onsubmit="f1()">
 
-            <div class="col"><input type="text" id=cnty placeholder="country" onclick="color()"></div>
-            <div class="col"> <input type="date" id=date></div>
-            <div class="col"> <input type="date" id=data></div>
-            <div class="col"> <input type="button" id=btn value="Submit"></div>
+            <div class="col"><input type="text" id="cnty" placeholder="country" required></div>
+            <div class="col"> <input type="date" id="dateA" required></div>
+            <div class="col"> <input type="date" id="dateB" required></div>
+            <div class="col"> <button type="button" class="btn btn-primary">submit</button></div>
 
+        </div>
+        <div id="result">
+            <h4>Confirmed Cases:<span id="cas"></span> </h4>
+            <h4>Active Cases: <span id="acas"></span></h4>
+            <h4>Death Cases: <span id="dcas"></span> </h4>
         </div>
     </form>
 </body>
