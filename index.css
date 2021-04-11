@@ -10,8 +10,7 @@ body {
 
 #form {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px 30px 20px 30px;
 }
 
 #btn {
@@ -22,4 +21,8 @@ body {
 
 #cnty {
     background-color: #B2DEEC;
+}
+
+.col {
+    margin: 0px 15px 10px 0px !important;
 }
