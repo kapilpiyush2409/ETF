@@ -10,6 +10,8 @@ body {
 
 #form {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 #btn {
@@ -20,10 +22,4 @@ body {
 
 #cnty {
     background-color: #B2DEEC;
-}
-
-#btn,
-#cnty,
-#date {
-    margin: 100px 20px 100px 20px;
 }
